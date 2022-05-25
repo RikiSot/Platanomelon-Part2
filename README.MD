@@ -41,3 +41,5 @@ que la aplicación funciona correctamente.
 3. Para instalar las librerías necesarias se ha hecho uso del paquete poetry
 
 ### Prueba de los resultados
+![Body](https://github.com/RikiSot/Platanomelon-Part2/blob/main/img/body.png)
+![Response](https://github.com/RikiSot/Platanomelon-Part2/blob/main/img/predictions.png)
