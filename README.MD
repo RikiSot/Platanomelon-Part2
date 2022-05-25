@@ -26,12 +26,18 @@ que no tengo ningún problema en aprender nuevas tecnologías por mi cuenta y a 
 En cualquier caso, si finalmente la evaluación no es positiva, me gustaría agradecer la oportunidad mostrada y
 el haber aprendido de esta prueba técnica.
 
-####Puntos a tratar:
+#### Puntos a tratar:
 1. Se puede verificar el funcionamiento de la aplicación en el servidor local. Para ello, es necesario ejecutar el comando de terminal
 en la carpeta en la que se encuentra el script de ejecución, o bien directamente ejecutar el script app.py
 ```
 python uvicorn app:app --reload
 ```
+or 
+```
+poetry run start
+```
 2. Si bien puede verificarse directamente el funcionamiento desde el endpoint /docs, existe un fichero de test que verifica
 que la aplicación funciona correctamente.
 3. Para instalar las librerías necesarias se ha hecho uso del paquete poetry
+
+### Prueba de los resultados
