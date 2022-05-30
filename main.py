@@ -4,17 +4,17 @@ import pickle
 import uvicorn
 from fastapi import FastAPI
 
-from Iris import Iris
+from app.Iris import Iris
 from typing import List
 
 # 2. Create the app object
 app = FastAPI()
 
 # 3. Load models
-with open('models/random_forest.pkl', 'rb') as fi:
+with open('app/models/random_forest.pkl', 'rb') as fi:
     random_forest_model = pickle.load(fi)
 
-with open('models/standard_scaler.pkl', 'rb') as si:
+with open('app/models/standard_scaler.pkl', 'rb') as si:
     scaler_model = pickle.load(si)
 
 
@@ -36,7 +36,8 @@ def predict_species(data: List[Iris]):
         # Predict the species
         prediction = random_forest_model.predict(scaled_data)
         # Add prediction to list of predictions
-        predictions.append(str(prediction[0]))
+        #predictions.append(str(prediction[0]))
+        predictions.append(prediction[0])
     # Generate json from list of predictions
     return {"predictions": predictions}
 
