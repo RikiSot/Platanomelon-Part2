@@ -28,7 +28,7 @@ el haber aprendido de esta prueba técnica.
 
 #### Puntos a tratar:
 1. Se puede verificar el funcionamiento de la aplicación en el servidor local. Para ello, es necesario ejecutar el comando de terminal
-en la carpeta en la que se encuentra el script de ejecución, o bien directamente ejecutar el script app.py
+en la carpeta en la que se encuentra el script de ejecución, o bien directamente ejecutar el script main.py
 ```
 python uvicorn app:app --reload
 ```
