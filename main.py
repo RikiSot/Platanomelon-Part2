@@ -36,8 +36,7 @@ def predict_species(data: List[Iris]):
         # Predict the species
         prediction = random_forest_model.predict(scaled_data)
         # Add prediction to list of predictions
-        #predictions.append(str(prediction[0]))
-        predictions.append(prediction[0])
+        predictions.append(str(prediction[0]))
     # Generate json from list of predictions
     return {"predictions": predictions}
 
