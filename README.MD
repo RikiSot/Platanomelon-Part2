@@ -23,9 +23,6 @@ Como bien he dicho en el readme del ejercicio anterior, no quiero engañar a nad
 y desconocía de antemano el framework que me había propuesto. Sin embargo, con esto creo que demuestro
 que no tengo ningún problema en aprender nuevas tecnologías por mi cuenta y a ponerlas en práctica rápidamente.
 
-En cualquier caso, si finalmente la evaluación no es positiva, me gustaría agradecer la oportunidad mostrada y
-el haber aprendido de esta prueba técnica.
-
 #### Puntos a tratar:
 1. Se puede verificar el funcionamiento de la aplicación en el servidor local. Para ello, es necesario ejecutar el comando de terminal
 en la carpeta en la que se encuentra el script de ejecución, o bien directamente ejecutar el script main.py
