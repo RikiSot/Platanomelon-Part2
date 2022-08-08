@@ -1,4 +1,4 @@
-# PART 2 - ML Model Deployment
+# ML Model Deployment
 
 Take a look at this Jupyter Notebook.
 
